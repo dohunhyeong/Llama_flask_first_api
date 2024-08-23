@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 # Hugging Face Inference API 정보
 API_URL = "https://rpvt8ykj2p7hzz02.us-east-1.aws.endpoints.huggingface.cloud"
-HEADERS = {"Authorization": "Bearer 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"}
+HEADERS = {"Authorization": "Bearer YOUR_TOKEN"}
 
 def query_huggingface_api(prompt):
     payload = {
