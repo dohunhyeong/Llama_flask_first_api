@@ -4,8 +4,8 @@ import requests
 app = Flask(__name__)
 
 # Hugging Face Inference API 정보
-API_URL = "https://api-inference.huggingface.co/models/Nudge5/cdci-2-7b"
-HEADERS = {"Authorization": "Bearer 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"}
+API_URL = "https://api-inference.huggingface.co/models/YOURMODELS"
+HEADERS = {"Authorization": "Bearer YOUR TOKEN KEYS"}
 
 def query_huggingface_api(prompt):
     try:
